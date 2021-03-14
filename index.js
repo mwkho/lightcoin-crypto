@@ -25,7 +25,7 @@ class Transaction{
 
   commit(){
     this.time = new Date;
-    this.account.addTransaction.push(this);;
+    this.account.addTransaction(this);;
   }
 }
 
